@@ -33,6 +33,7 @@ Rails.application.configure do
   # The :test delivery method accumulates sent emails in the
   # ActionMailer::Base.deliveries array.
   config.action_mailer.delivery_method = :test
+  config.action_mailer.default_url_options = { host: 'https://c7e649e5a5f34c6ca45d68b2307ea1b6.vfs.cloud9.us-east-2.amazonaws.com/raiil' }
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
